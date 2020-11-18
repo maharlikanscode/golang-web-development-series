@@ -1,0 +1,94 @@
+{"level":"info","ts":1605655387.415722,"msg":"Web server started at 2020-11-18 07:23:07.4147197 +0800 PST"}
+{"level":"info","ts":1605655479.5797033,"msg":"IP:127.0.0.1:49318:/:2020-11-18 07:23:07.4147197 +0800 PST"}
+{"level":"info","ts":1605655479.6287074,"msg":"IP:127.0.0.1:49318:/static/stream-dashboard-ui-kit/assets/vendor/font-awesome/css/all.min.css:2020-11-18 07:23:07.4147197 +0800 PST"}
+{"level":"info","ts":1605655479.6337044,"msg":"IP:127.0.0.1:49319:/static/stream-dashboard-ui-kit/assets/css/theme.css:2020-11-18 07:23:07.4147197 +0800 PST"}
+{"level":"info","ts":1605655479.7117088,"msg":"IP:127.0.0.1:49318:/static/sweetalert2/sweetalert2.css:2020-11-18 07:23:07.4147197 +0800 PST"}
+{"level":"info","ts":1605655479.7147124,"msg":"IP:127.0.0.1:49319:/static/sweetalert2/sweetalert2.all.min.js:2020-11-18 07:23:07.4147197 +0800 PST"}
+{"level":"info","ts":1605655479.719705,"msg":"IP:127.0.0.1:49318:/static/jquery/dist/jquery.min.js:2020-11-18 07:23:07.4147197 +0800 PST"}
+{"level":"info","ts":1605655479.7407093,"msg":"IP:127.0.0.1:49319:/static/assets/images/Maharlikans_Code_Top_Logo.png:2020-11-18 07:23:07.4147197 +0800 PST"}
+{"level":"info","ts":1605655479.7417085,"msg":"IP:127.0.0.1:49318:/static/stream-dashboard-ui-kit/assets/svg/mockups/mockup.svg:2020-11-18 07:23:07.4147197 +0800 PST"}
+{"level":"info","ts":1605655479.7777176,"msg":"IP:127.0.0.1:49319:/static/stream-dashboard-ui-kit/assets/svg/shapes/shape-1.svg:2020-11-18 07:23:07.4147197 +0800 PST"}
+{"level":"info","ts":1605655479.7817082,"msg":"IP:127.0.0.1:49318:/static/stream-dashboard-ui-kit/assets/svg/shapes/shape-2.svg:2020-11-18 07:23:07.4147197 +0800 PST"}
+{"level":"info","ts":1605655479.8157113,"msg":"IP:127.0.0.1:49319:/static/stream-dashboard-ui-kit/assets/svg/shapes/shape-3.svg:2020-11-18 07:23:07.4147197 +0800 PST"}
+{"level":"info","ts":1605655479.8417146,"msg":"IP:127.0.0.1:49318:/static/stream-dashboard-ui-kit/assets/svg/shapes/shape-4.svg:2020-11-18 07:23:07.4147197 +0800 PST"}
+{"level":"info","ts":1605655479.848705,"msg":"IP:127.0.0.1:49319:/static/stream-dashboard-ui-kit/assets/vendor/font-awesome/webfonts/fa-regular-400.woff2:2020-11-18 07:23:07.4147197 +0800 PST"}
+{"level":"info","ts":1605655479.9597042,"msg":"IP:127.0.0.1:49318:/static/assets/images/favicon.ico:2020-11-18 07:23:07.4147197 +0800 PST"}
+{"level":"info","ts":1605659744.6549187,"msg":"IP:127.0.0.1:50348:/:2020-11-18 07:23:07.4147197 +0800 PST"}
+{"level":"info","ts":1605659744.7979174,"msg":"IP:127.0.0.1:50348:/static/assets/images/favicon.ico:2020-11-18 07:23:07.4147197 +0800 PST"}
+{"level":"error","ts":1605661235.2108922,"msg":"http: Server closed"}
+{"level":"warn","ts":1605661235.7109158,"msg":"Server has been shutdown at 2020-11-18 07:23:07.4147197 +0800 PST"}
+{"level":"info","ts":1605661317.4127908,"msg":"Web server started at 2020-11-18 09:01:57.4107997 +0800 PST"}
+{"level":"info","ts":1605661324.056946,"msg":"IP:127.0.0.1:50805:/:2020-11-18 09:01:57.4107997 +0800 PST"}
+{"level":"info","ts":1605661324.0879407,"msg":"IP:127.0.0.1:50805:/static/stream-dashboard-ui-kit/assets/vendor/font-awesome/css/all.min.css:2020-11-18 09:01:57.4107997 +0800 PST"}
+{"level":"info","ts":1605661324.0999453,"msg":"IP:127.0.0.1:50807:/static/stream-dashboard-ui-kit/assets/css/theme.css:2020-11-18 09:01:57.4107997 +0800 PST"}
+{"level":"info","ts":1605661324.124946,"msg":"IP:127.0.0.1:50808:/static/sweetalert2/sweetalert2.css:2020-11-18 09:01:57.4107997 +0800 PST"}
+{"level":"info","ts":1605661324.1279547,"msg":"IP:127.0.0.1:50811:/static/assets/images/Maharlikans_Code_Top_Logo.png:2020-11-18 09:01:57.4107997 +0800 PST"}
+{"level":"info","ts":1605661324.1289542,"msg":"IP:127.0.0.1:50810:/static/jquery/dist/jquery.min.js:2020-11-18 09:01:57.4107997 +0800 PST"}
+{"level":"info","ts":1605661324.1309664,"msg":"IP:127.0.0.1:50809:/static/sweetalert2/sweetalert2.all.min.js:2020-11-18 09:01:57.4107997 +0800 PST"}
+{"level":"info","ts":1605661324.1649425,"msg":"IP:127.0.0.1:50808:/static/stream-dashboard-ui-kit/assets/svg/mockups/mockup.svg:2020-11-18 09:01:57.4107997 +0800 PST"}
+{"level":"info","ts":1605661324.182942,"msg":"IP:127.0.0.1:50805:/static/stream-dashboard-ui-kit/assets/svg/shapes/shape-1.svg:2020-11-18 09:01:57.4107997 +0800 PST"}
+{"level":"info","ts":1605661324.182942,"msg":"IP:127.0.0.1:50807:/static/stream-dashboard-ui-kit/assets/svg/shapes/shape-2.svg:2020-11-18 09:01:57.4107997 +0800 PST"}
+{"level":"info","ts":1605661324.183946,"msg":"IP:127.0.0.1:50810:/static/stream-dashboard-ui-kit/assets/svg/shapes/shape-3.svg:2020-11-18 09:01:57.4107997 +0800 PST"}
+{"level":"info","ts":1605661324.183946,"msg":"IP:127.0.0.1:50809:/static/stream-dashboard-ui-kit/assets/svg/shapes/shape-4.svg:2020-11-18 09:01:57.4107997 +0800 PST"}
+{"level":"info","ts":1605661324.2749457,"msg":"IP:127.0.0.1:50809:/static/stream-dashboard-ui-kit/assets/vendor/font-awesome/webfonts/fa-regular-400.woff2:2020-11-18 09:01:57.4107997 +0800 PST"}
+{"level":"info","ts":1605661327.4846601,"msg":"IP:127.0.0.1:50809:/api/v1/user/login:2020-11-18 09:01:57.4107997 +0800 PST"}
+{"level":"info","ts":1605661327.5326645,"msg":"IP:127.0.0.1:50809:/static/stream-dashboard-ui-kit/assets/vendor/font-awesome/webfonts/fa-solid-900.woff2:2020-11-18 09:01:57.4107997 +0800 PST"}
+{"level":"error","ts":1605661334.0541537,"msg":"http: Server closed"}
+{"level":"warn","ts":1605661334.553178,"msg":"Server has been shutdown at 2020-11-18 09:01:57.4107997 +0800 PST"}
+{"level":"info","ts":1605663907.084666,"msg":"Web server started at 2020-11-18 09:45:07.0846661 +0800 PST"}
+{"level":"info","ts":1605663911.3799622,"msg":"IP:127.0.0.1:51006:/:2020-11-18 09:45:07.0846661 +0800 PST"}
+{"level":"info","ts":1605663911.4838836,"msg":"IP:127.0.0.1:51006:/static/assets/images/favicon.ico:2020-11-18 09:45:07.0846661 +0800 PST"}
+{"level":"info","ts":1605663912.0823557,"msg":"IP:127.0.0.1:51006:/:2020-11-18 09:45:07.0846661 +0800 PST"}
+{"level":"info","ts":1605663912.1553566,"msg":"IP:127.0.0.1:51006:/static/assets/images/favicon.ico:2020-11-18 09:45:07.0846661 +0800 PST"}
+{"level":"info","ts":1605663912.2493465,"msg":"IP:127.0.0.1:51006:/:2020-11-18 09:45:07.0846661 +0800 PST"}
+{"level":"info","ts":1605663912.3003492,"msg":"IP:127.0.0.1:51006:/static/assets/images/favicon.ico:2020-11-18 09:45:07.0846661 +0800 PST"}
+{"level":"info","ts":1605663912.4443467,"msg":"IP:127.0.0.1:51006:/:2020-11-18 09:45:07.0846661 +0800 PST"}
+{"level":"info","ts":1605663912.4933653,"msg":"IP:127.0.0.1:51006:/static/assets/images/favicon.ico:2020-11-18 09:45:07.0846661 +0800 PST"}
+{"level":"error","ts":1605663934.57094,"msg":"http: Server closed"}
+{"level":"warn","ts":1605663935.0719337,"msg":"Server has been shutdown at 2020-11-18 09:45:07.0846661 +0800 PST"}
+{"level":"info","ts":1605664272.7875435,"msg":"Web server started at 2020-11-18 09:51:12.7865431 +0800 PST"}
+{"level":"info","ts":1605664276.4303546,"msg":"IP:127.0.0.1:51135:/:2020-11-18 09:51:12.7865431 +0800 PST"}
+{"level":"info","ts":1605664276.4933646,"msg":"IP:127.0.0.1:51135:/static/stream-dashboard-ui-kit/assets/vendor/font-awesome/css/all.min.css:2020-11-18 09:51:12.7865431 +0800 PST"}
+{"level":"info","ts":1605664276.49541,"msg":"IP:127.0.0.1:51136:/static/stream-dashboard-ui-kit/assets/css/theme.css:2020-11-18 09:51:12.7865431 +0800 PST"}
+{"level":"info","ts":1605664276.5143592,"msg":"IP:127.0.0.1:51137:/static/sweetalert2/sweetalert2.css:2020-11-18 09:51:12.7865431 +0800 PST"}
+{"level":"info","ts":1605664276.5183532,"msg":"IP:127.0.0.1:51138:/static/jquery/dist/jquery.min.js:2020-11-18 09:51:12.7865431 +0800 PST"}
+{"level":"info","ts":1605664276.5183532,"msg":"IP:127.0.0.1:51139:/static/assets/images/Maharlikans_Code_Top_Logo.png:2020-11-18 09:51:12.7865431 +0800 PST"}
+{"level":"info","ts":1605664276.519352,"msg":"IP:127.0.0.1:51140:/static/stream-dashboard-ui-kit/assets/svg/mockups/mockup.svg:2020-11-18 09:51:12.7865431 +0800 PST"}
+{"level":"info","ts":1605664276.6043637,"msg":"IP:127.0.0.1:51137:/static/stream-dashboard-ui-kit/assets/svg/shapes/shape-4.svg:2020-11-18 09:51:12.7865431 +0800 PST"}
+{"level":"info","ts":1605664276.6053612,"msg":"IP:127.0.0.1:51138:/static/stream-dashboard-ui-kit/assets/svg/shapes/shape-3.svg:2020-11-18 09:51:12.7865431 +0800 PST"}
+{"level":"info","ts":1605664276.6053612,"msg":"IP:127.0.0.1:51136:/static/stream-dashboard-ui-kit/assets/svg/shapes/shape-1.svg:2020-11-18 09:51:12.7865431 +0800 PST"}
+{"level":"info","ts":1605664276.6123796,"msg":"IP:127.0.0.1:51139:/static/sweetalert2/sweetalert2.all.min.js:2020-11-18 09:51:12.7865431 +0800 PST"}
+{"level":"info","ts":1605664276.6583607,"msg":"IP:127.0.0.1:51140:/static/stream-dashboard-ui-kit/assets/svg/shapes/shape-2.svg:2020-11-18 09:51:12.7865431 +0800 PST"}
+{"level":"info","ts":1605664276.7243547,"msg":"IP:127.0.0.1:51140:/static/stream-dashboard-ui-kit/assets/vendor/font-awesome/webfonts/fa-regular-400.woff2:2020-11-18 09:51:12.7865431 +0800 PST"}
+{"level":"info","ts":1605664276.8333495,"msg":"IP:127.0.0.1:51140:/static/assets/images/favicon.ico:2020-11-18 09:51:12.7865431 +0800 PST"}
+{"level":"info","ts":1605664371.6644645,"msg":"IP:127.0.0.1:51170:/api/v1/user/login:2020-11-18 09:51:12.7865431 +0800 PST"}
+{"level":"info","ts":1605664371.6864982,"msg":"IP:127.0.0.1:51170:/static/stream-dashboard-ui-kit/assets/vendor/font-awesome/webfonts/fa-solid-900.woff2:2020-11-18 09:51:12.7865431 +0800 PST"}
+{"level":"error","ts":1605664405.8240585,"msg":"http: Server closed"}
+{"level":"warn","ts":1605664406.3250558,"msg":"Server has been shutdown at 2020-11-18 09:51:12.7865431 +0800 PST"}
+{"level":"info","ts":1605664420.9482002,"msg":"Web server started at 2020-11-18 09:53:40.9471957 +0800 PST"}
+{"level":"error","ts":1605664442.1451812,"msg":"http: Server closed"}
+{"level":"warn","ts":1605664442.6461759,"msg":"Server has been shutdown at 2020-11-18 09:53:40.9471957 +0800 PST"}
+{"level":"info","ts":1605664457.8084972,"msg":"Web server started at 2020-11-18 09:54:17.8084972 +0800 PST"}
+{"level":"info","ts":1605664460.0340497,"msg":"IP:127.0.0.1:51218:/:2020-11-18 09:54:17.8084972 +0800 PST"}
+{"level":"info","ts":1605664460.1010978,"msg":"IP:127.0.0.1:51218:/static/stream-dashboard-ui-kit/assets/vendor/font-awesome/css/all.min.css:2020-11-18 09:54:17.8084972 +0800 PST"}
+{"level":"info","ts":1605664460.104078,"msg":"IP:127.0.0.1:51220:/static/sweetalert2/sweetalert2.css:2020-11-18 09:54:17.8084972 +0800 PST"}
+{"level":"info","ts":1605664460.112047,"msg":"IP:127.0.0.1:51222:/static/assets/images/Maharlikans_Code_Top_Logo.png:2020-11-18 09:54:17.8084972 +0800 PST"}
+{"level":"info","ts":1605664460.112047,"msg":"IP:127.0.0.1:51219:/static/stream-dashboard-ui-kit/assets/css/theme.css:2020-11-18 09:54:17.8084972 +0800 PST"}
+{"level":"info","ts":1605664460.112047,"msg":"IP:127.0.0.1:51221:/static/jquery/dist/jquery.min.js:2020-11-18 09:54:17.8084972 +0800 PST"}
+{"level":"info","ts":1605664460.112047,"msg":"IP:127.0.0.1:51223:/static/stream-dashboard-ui-kit/assets/svg/mockups/mockup.svg:2020-11-18 09:54:17.8084972 +0800 PST"}
+{"level":"info","ts":1605664460.1770477,"msg":"IP:127.0.0.1:51219:/static/stream-dashboard-ui-kit/assets/svg/shapes/shape-1.svg:2020-11-18 09:54:17.8084972 +0800 PST"}
+{"level":"info","ts":1605664460.1890626,"msg":"IP:127.0.0.1:51223:/static/stream-dashboard-ui-kit/assets/svg/shapes/shape-2.svg:2020-11-18 09:54:17.8084972 +0800 PST"}
+{"level":"info","ts":1605664460.1930606,"msg":"IP:127.0.0.1:51221:/static/stream-dashboard-ui-kit/assets/svg/shapes/shape-3.svg:2020-11-18 09:54:17.8084972 +0800 PST"}
+{"level":"info","ts":1605664460.1940567,"msg":"IP:127.0.0.1:51222:/static/stream-dashboard-ui-kit/assets/svg/shapes/shape-4.svg:2020-11-18 09:54:17.8084972 +0800 PST"}
+{"level":"info","ts":1605664460.2290537,"msg":"IP:127.0.0.1:51218:/static/sweetalert2/sweetalert2.all.min.js:2020-11-18 09:54:17.8084972 +0800 PST"}
+{"level":"info","ts":1605664460.2350545,"msg":"IP:127.0.0.1:51222:/static/stream-dashboard-ui-kit/assets/vendor/font-awesome/webfonts/fa-regular-400.woff2:2020-11-18 09:54:17.8084972 +0800 PST"}
+{"level":"info","ts":1605664460.330047,"msg":"IP:127.0.0.1:51222:/static/assets/images/favicon.ico:2020-11-18 09:54:17.8084972 +0800 PST"}
+{"level":"info","ts":1605664462.7892103,"msg":"IP:127.0.0.1:51222:/api/v1/user/login:2020-11-18 09:54:17.8084972 +0800 PST"}
+{"level":"info","ts":1605664462.821229,"msg":"IP:127.0.0.1:51222:/static/stream-dashboard-ui-kit/assets/vendor/font-awesome/webfonts/fa-solid-900.woff2:2020-11-18 09:54:17.8084972 +0800 PST"}
+{"level":"info","ts":1605664515.1706107,"msg":"IP:127.0.0.1:51257:/api/v1/user/login:2020-11-18 09:54:17.8084972 +0800 PST"}
+{"level":"info","ts":1605664528.5866368,"msg":"IP:127.0.0.1:51257:/api/v1/user/login:2020-11-18 09:54:17.8084972 +0800 PST"}
+{"level":"error","ts":1605664813.856834,"msg":"http: Server closed"}
+{"level":"warn","ts":1605664814.3568301,"msg":"Server has been shutdown at 2020-11-18 09:54:17.8084972 +0800 PST"}
+{"level":"info","ts":1605664821.6528056,"msg":"Web server started at 2020-11-18 10:00:21.651816 +0800 PST"}
+{"level":"error","ts":1605665632.2432837,"msg":"http: Server closed"}
+{"level":"warn","ts":1605665632.7432852,"msg":"Server has been shutdown at 2020-11-18 10:00:21.651816 +0800 PST"}
