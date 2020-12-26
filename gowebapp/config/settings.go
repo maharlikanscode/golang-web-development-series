@@ -40,7 +40,8 @@ const SiteFooterAccountTemplate = SiteRootTemplate + "layout/footer_account.html
 const SiteFooterDashTemplate = SiteRootTemplate + "layout/footer_dash.html"
 
 // SiteBaseURL is the base URL for the site URL structure. for prod https://maharlikanscode.com/
-const SiteBaseURL = "http://127.0.0.1:8081/"
+//const SiteBaseURL = "http://127.0.0.1:8081/"
+const SiteBaseURL = "https://maharlikanscode.com/"
 
 // SiteTopMenuLogo is the small size top menu logo found at the top most left position.
 const SiteTopMenuLogo = "/static/assets/images/Maharlikans_Code_Top_Logo.png"
