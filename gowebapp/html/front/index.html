@@ -1,0 +1,125 @@
+{{template "header" . }}
+<main class="container-fluid w-100" role="main">
+    <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center bg-white mnh-100vh">
+            <a class="u-login-form py-3 mb-auto" href="/">
+                <img class="img-fluid" src="/static/assets/images/Maharlikans_Code_Top_Logo.png" width="160" alt="{{.Settings.SiteFullName}}">
+            </a>
+
+            <div class="u-login-form">
+                <form class="mb-3" action="/">
+                    <div class="mb-3">
+                        <h1 class="h2">Welcome Back!</h1>
+                        <p class="small">Login to your dashboard with your registered email address and password.</p>
+                    </div>
+
+                    <div class="form-group mb-4">
+                        <label for="email">Username</label>
+                        <input id="username" class="form-control" name="username" type="text" placeholder="">
+                    </div>
+
+                    <div class="form-group mb-4">
+                        <label for="password">Password</label>
+                        <input id="password" class="form-control" name="password" type="password" placeholder="">
+                    </div>
+
+                    <div class="form-group d-flex justify-content-between align-items-center mb-4">
+                        <div class="custom-control custom-checkbox">
+                            <input id="isSiteKeepMe" class="custom-control-input" name="isSiteKeepMe" type="checkbox">
+                            <label class="custom-control-label" for="isSiteKeepMe">Trust this computer for 30 days.</label>
+                        </div>
+
+                        <a class="link-muted small" href="/">Forgot Password?</a>
+                    </div>
+
+                    <button type="button" class="btn btn-primary btn-block" onclick="loginForm();" id="btnLogin">Login</button>
+                </form>
+
+                <p class="small">
+                    Don’t have an account? <a href="/">Sign Up here</a>
+                </p>
+            </div>
+
+            <div class="u-login-form text-muted py-3 mt-auto">
+                <small><i class="far fa-question-circle mr-1"></i> If you are not able to sign in, please <a href="/">contact us</a>.</small>
+            </div>
+        </div>
+
+        <div class="col-lg-6 d-none d-lg-flex flex-column align-items-center justify-content-center bg-light">
+            <img class="img-fluid position-relative u-z-index-3 mx-5" src="/static/stream-dashboard-ui-kit/assets/svg/mockups/mockup.svg" alt="Image description">
+
+            <figure class="u-shape u-shape--top-right u-shape--position-5">
+                <img src="/static/stream-dashboard-ui-kit/assets/svg/shapes/shape-1.svg" alt="Image description">
+            </figure>
+            <figure class="u-shape u-shape--center-left u-shape--position-6">
+                <img src="/static/stream-dashboard-ui-kit/assets/svg/shapes/shape-2.svg" alt="Image description">
+            </figure>
+            <figure class="u-shape u-shape--center-right u-shape--position-7">
+                <img src="/static/stream-dashboard-ui-kit/assets/svg/shapes/shape-3.svg" alt="Image description">
+            </figure>
+            <figure class="u-shape u-shape--bottom-left u-shape--position-8">
+                <img src="/static/stream-dashboard-ui-kit/assets/svg/shapes/shape-4.svg" alt="Image description">
+            </figure>
+        </div>
+    </div>
+</main>
+
+<script>
+    function loginForm()
+    {
+      //Get the form instance
+      username = $("#username").val();
+      password = $("#password").val();
+      isSiteKeepMe = $('#isSiteKeepMe').is(':checked');
+      
+      if (csrfToken === undefined || csrfToken === null || csrfToken ===""){
+          Swal.fire("CSRF Token is Missing!", "Please try to refresh your page to get the new csrf token, if not, please report this to us instead. Thank you!", "error");
+          return false;
+      }
+    
+      if (username === undefined || username === null || username ===""){
+          Swal.fire("Username is Required!", "Please enter your username!", "error");
+          $("#username").focus();
+          return false;
+      }
+  
+      if (password === undefined || password === null || password ===""){
+          Swal.fire("Password is Required!", "Please enter your password", "error");
+          $("#password").focus();
+          return false;
+      }
+      
+      var obj = { username: username, password: password, isSiteKeepMe: new String(isSiteKeepMe) };
+      var data = JSON.stringify(obj);
+      
+      $.ajax({
+          method: "POST",
+          headers: {
+              'X-CSRF-TOKEN':csrfToken,
+              'Content-Type':'application/json'
+          },
+          url: BASE_URL+'api/v1/user/login',
+          data: data,
+          cache: false,
+          dataType: "json",
+          beforeSend: function(){
+              //Start displaying button's working animation
+              var loadingText = '<i class="fa fa-circle-o-notch fa-spin"></i> signing in...';
+              if ($("#btnLogin").html() !== loadingText) {
+                  $("#btnLogin").data('original-text', $("#btnLogin").html());
+                  $("#btnLogin").html(loadingText);
+              }
+          },
+          success: function(response)
+          {
+            $("#btnLogin").html($("#btnLogin").data('original-text')); //stop animation and switch back to original text
+            if (response.isSuccess === "false") {
+              Swal.fire(response.alertTitle, response.alertMsg, response.alertType);
+            }else{
+              Swal.fire(response.alertTitle, response.alertMsg, response.alertType);
+            }
+          }
+      });
+    }
+  </script>
+{{template "footer" . }}
