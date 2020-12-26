@@ -1,11 +1,13 @@
 {{define "footer"}}
 <script src="/static/jquery/dist/jquery.min.js" type="text/javascript"></script>
 <script src="/static/sweetalert2/sweetalert2.all.min.js" type="text/javascript" defer></script>
+
 <!-- Common site variables -->
 <script>
     const BASE_URL = "{{.Settings.SiteBaseURL}}";
     const csrfToken = "{{.CsrfToken}}";
 </script>
+<input type="text" hidden value="{{.CsrfToken}}" id="csrfToken" />
 </body>
 </html>
 {{end}}
