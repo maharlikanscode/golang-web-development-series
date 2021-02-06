@@ -5,6 +5,7 @@ Golang web development series with step-by-step guides on Maharlikans Code Youtu
 
 # Subscribe to Maharlikans Code Youtube Channel:
 Please consider subscribing to my Youtube Channel to recognize my work on any of my tutorial series. Thank you so much for your support!
+https://www.youtube.com/c/MaharlikansCode?sub_confirmation=1
 
 # License
 Code is distributed under MIT license, feel free to use it in your proprietary projects as well.
